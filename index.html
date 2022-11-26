@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Orientation</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div></div>
+  <div class="hidden text-xl">
+    Heya! You got it. Here is a useless secret code you will never need - dkjfhd8a90ewuioajsdi0a9.
+  </div>
+  <video autoplay muted loop width="100%" height="100%" src="dribbble.mp4" class="video"></video>
+  <div class="text-overlay">
+    <div class="text-4xl">
+      Welcome to Web Wing Orientation.
+    </div>
+    <div class="text-xl">
+      Try to find the hidden message behind these groovy layers.
+    </div>
+  </div>
+</body>
+
+<style>
+  * {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow-y: hidden;
+  }
+
+  body {
+    height: 100vh;
+  }
+
+  .hidden {
+    position: absolute;
+    z-index: -1;
+  }
+
+  .text-4xl {
+    font-size: 4rem;
+    font-weight: 800;
+  }
+  .text-xl {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+  .text-overlay {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    max-width: 50%;
+    text-align: right;
+  }
+
+  .video {
+    object-fit: cover;
+  }
+</style>
+
+</html>
